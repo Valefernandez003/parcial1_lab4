@@ -7,6 +7,7 @@ router.post('/',ctrl.create);
 router.put('/:id',ctrl.update);
 router.delete('/:id',ctrl.delete);
 router.put('/:id/add-Book/:BookId', ctrl.addBook);
+router.get('/:id',ctrl.dontFindAuthor);
 
 module.exports = router;
 
